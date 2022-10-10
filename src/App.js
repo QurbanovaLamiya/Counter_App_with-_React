@@ -1,14 +1,15 @@
 import { Component, Fragment } from "react";
 import "./App.css";
+import Counter from "./Counter";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
   render() {
     return (
       <Fragment>
-        <h1>hello</h1>
+        <Counter />
       </Fragment>
     );
   }
